@@ -8,4 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'think\\composer\\' => array($vendorDir . '/topthink/think-installer/src'),
     'app\\' => array($baseDir . '/application'),
+    'Workerman\\' => array($vendorDir . '/workerman/workerman'),
+    'PHPSocketIO\\' => array($vendorDir . '/workerman/phpsocket.io/src'),
+    'Channel\\' => array($vendorDir . '/workerman/channel/src'),
 );

@@ -15,6 +15,18 @@ class ComposerStaticInit67f898b271a6aab68d248e535ecbe8fd
         array (
             'app\\' => 4,
         ),
+        'W' => 
+        array (
+            'Workerman\\' => 10,
+        ),
+        'P' => 
+        array (
+            'PHPSocketIO\\' => 12,
+        ),
+        'C' => 
+        array (
+            'Channel\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +37,18 @@ class ComposerStaticInit67f898b271a6aab68d248e535ecbe8fd
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/application',
+        ),
+        'Workerman\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/workerman',
+        ),
+        'PHPSocketIO\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/phpsocket.io/src',
+        ),
+        'Channel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/channel/src',
         ),
     );
 
